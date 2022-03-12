@@ -24,7 +24,7 @@ function Chutar() {
             }
             if(contador == 0){
                 recebeTentativas.innerHTML = "Você tem " + contador + " tentativas."
-                recebeId.innerHTML = ("O número secreto era " + numeroSecreto + "... pressione f5 para jogar novamente!")
+                recebeId.innerHTML = ("O número secreto era " + numeroSecreto + "... pressione f5 ou role para baixo para jogar novamente!")
                 contador -= 1
             }
         }
