@@ -10,10 +10,12 @@ function Chutar() {
     var chute = parseInt(document.getElementById("valor").value)
     console.log(chute);
     if (chute >= 0 && chute <=10) {
-        if (contador > 1) {
+        if (contador > 0) {
             if (chute == numeroSecreto) {
                 recebeId.innerHTML = "Parabéns, Você acertou !!!"
                 contador = 0
+                recebeTentativas.innerHTML = "Você tem " + contador + " tentativas."
+                contador -= 1
             }
             else {
                 recebeId.innerHTML = "Você errou, tente novamente !!!"
@@ -21,10 +23,10 @@ function Chutar() {
                 recebeTentativas.innerHTML = "Você tem " + contador + " tentativas."
             }
         }
-        else if(contador == 1){
-            contador -= 1
+        else if(contador == 0){
             recebeTentativas.innerHTML = "Você tem " + contador + " tentativas."
             recebeId.innerHTML = ("O número secreto era " + numeroSecreto + "... pressione f5 para jogar novamente!")
+            contador -= 1
         }
         else {
             recebeId.innerHTML = ("O jogo terminou, pressione f5 para jogar novamente!")
