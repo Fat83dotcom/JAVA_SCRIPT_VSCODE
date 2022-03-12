@@ -29,7 +29,7 @@ function Chutar() {
             }
         }
         else {
-            recebeId.innerHTML = ("O jogo terminou, pressione f5 para jogar novamente!")
+            recebeId.innerHTML = ("O jogo terminou, pressione f5 ou role para baixo para jogar novamente!")
         }
     }
     else {
