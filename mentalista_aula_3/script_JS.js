@@ -31,6 +31,6 @@ function Chutar() {
         }
     }
     else {
-        recebeId.innerHTML = "Digite um número entre 0 e 10 !!!"
+        recebeId.innerHTML = "Digite um número entre 1 e 10 !!!"
     }
 }
