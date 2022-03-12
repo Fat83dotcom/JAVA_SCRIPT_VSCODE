@@ -22,11 +22,11 @@ function Chutar() {
                 contador -= 1
                 recebeTentativas.innerHTML = "Você tem " + contador + " tentativas."
             }
-        }
-        else if(contador == 0){
-            recebeTentativas.innerHTML = "Você tem " + contador + " tentativas."
-            recebeId.innerHTML = ("O número secreto era " + numeroSecreto + "... pressione f5 para jogar novamente!")
-            contador -= 1
+            if(contador == 0){
+                recebeTentativas.innerHTML = "Você tem " + contador + " tentativas."
+                recebeId.innerHTML = ("O número secreto era " + numeroSecreto + "... pressione f5 para jogar novamente!")
+                contador -= 1
+            }
         }
         else {
             recebeId.innerHTML = ("O jogo terminou, pressione f5 para jogar novamente!")
