@@ -78,3 +78,25 @@ button {
     text-align: center;
 
 }
+
+.copyR {
+    text-align: center;
+    color: #ffffff;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fundoEscuro {
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 11px;
+    height: 5vh;
+    display: block;
+    max-width: 250px;
+    background: #000000;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
