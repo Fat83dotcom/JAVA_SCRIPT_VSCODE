@@ -1,5 +1,5 @@
-let jogador_1 = { nome: 'Rafa', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 }
-let jogador_2 = { nome: 'Paulo', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 }
+let jogador_1 = { nome: 'jogador_1', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 }
+let jogador_2 = { nome: 'jogador_2', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 }
 
 let jogadores = [jogador_1, jogador_2]
 
