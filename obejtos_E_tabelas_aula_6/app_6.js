@@ -1,7 +1,7 @@
-let rafa = { nome: 'Rafa', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 }
-let paulo = { nome: 'Paulo', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 }
+let jogador_1 = { nome: 'Rafa', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 }
+let jogador_2 = { nome: 'Paulo', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 }
 
-let jogadores = [rafa, paulo]
+let jogadores = [jogador_1, jogador_2]
 
 exibeJogadoreNaTela(jogadores)
 
