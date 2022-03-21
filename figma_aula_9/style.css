@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    background: linear-gradient(236.85deg, #095e10 27.26%, #a4f2b1 96.03%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #F6F6F6;
+    color: #1c1c1c;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0c4811;
+    padding: 64px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto {
+    border-radius: 500px;
+    max-height: 160px;
+    max-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 8px 16px;
+    background: #ecf4ff;
+    border-radius: 100px;
+    
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(230.65deg, #4cfa8c 27.49%, #c6f7d8 83.19%);
+    margin-top: 35px;
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.42);
+}
+
+.projetos-titulo {
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+}
+li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.dark {
+    background: #071a01;
+    
+}
+
+.dark .container {
+    background: #333439;
+    color: #F7F7F7;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #233124;
+    padding: 64px;
+}
+
+.dark .projetos {
+    color: #1c1c1c;
+}
+
+.dark .tema button {
+    background: #1c1c1c;
+    color: #F7F7F7;
+    border: 2px solid #F7F7F7;
+}
+
+.dark .copyRight {
+    color: #F7F7F7;
+}
+
+.copyRight {
+    text-align: center;
+    color: #1c1c1c;
+}
+
+.redesSociais img {
+    height: 40px;
+    width: 40px;
+}
