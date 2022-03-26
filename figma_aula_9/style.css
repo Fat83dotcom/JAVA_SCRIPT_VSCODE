@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
-    background: linear-gradient(236.85deg, #095e10 27.26%, #a4f2b1 96.03%);
+    background: linear-gradient(236.85deg, #228B22 27.26%, #3cb371 96.03%);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -57,7 +57,7 @@ body {
 .projetos {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(230.65deg, #4cfa8c 27.49%, #c6f7d8 83.19%);
+    background: linear-gradient(230.65deg, #62a162 27.49%, #91ed91 83.19%);
     margin-top: 35px;
     padding: 32px;
     border-radius: 20px;
