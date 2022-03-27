@@ -110,6 +110,7 @@ a {
 }
 
 .copyRight {
+    display: block;
     text-align: center;
     color: #1c1c1c;
 }
