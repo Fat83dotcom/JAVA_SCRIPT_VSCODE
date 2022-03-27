@@ -60,6 +60,7 @@ body {
   }
   
   .copyR {
+    display: block;
     text-align: center;
     color: #DA1E26;
     font-size: medium;
