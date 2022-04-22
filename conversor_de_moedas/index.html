@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title> Imersão Dev Alura - Aula 02</title>
-        <link href="script_css.css" rel="stylesheet">
-        
-        
-    </head>
 
-    <body>
-        
-        <div class="container">
-            <script src="script_javaS.js"></script>
-            <h1 class="page-title">
-              Conversor de Moedas
-            </h1>
-            <p class="page-subtitle">
-              Descubra os valores em dolar U$
-            </p>
-            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
-            <label for="moeda">Insira o valor em Reais:</label><br>
-            <input type="number" id="valor" size="2" /><br>
-            
-            <button type="submit" onclick="Converter()">Converter</button>
-            
-            <h2 id="valorConvertido"></h2>
-            <p id="taxaDeConversao" class="taxa"></p>
+<head>
+  <title> Imersão Dev Alura - Aula 02</title>
+  <link href="script_2css.css" rel="stylesheet">
+  <meta name="description" content="Conversor de moedas OnLine">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="cabeca">
+      <h1 class="page-title">
+        Conversor de Moedas
+      </h1>
+    </header>
+    <main>
+      <div class="caixaPrincipal">
+        <div>
+          <h1>Escolha uma opção:</h1>
         </div>
-        <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
-    </body>
+        
+        <!-- <p class="page-subtitle">
+          Descubra os valores em dolar U$
+        </p> -->
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+          class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira o valor em Reais:</label><br>
+        <input type="number" id="valor" size="2" /><br>
+
+        <button type="submit" onclick="Converter()">Converter</button>
+
+        <h2 id="valorConvertido"></h2>
+        <p id="taxaDeConversao" class="taxa"></p>
+      </div>
+    </main>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <script src="script_javaS.js"></script>
+</body>
 
 </html>

@@ -1,3 +1,4 @@
+// fetch()
 function Converter() {
     var valoTaxa = 5.5
     var valorElemento = document.getElementById("valor")
@@ -12,8 +13,6 @@ function Converter() {
     var valorTaxa = document.getElementById("taxaDeConversao")
     var mostraTaxa = "A taxa usada foi de " + valoTaxa
     valorTaxa.innerHTML = mostraTaxa
-
-
 }
 
 // Converter()

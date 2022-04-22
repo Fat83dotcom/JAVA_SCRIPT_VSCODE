@@ -1,6 +1,9 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Fernando Mendes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="script_5.css" rel="stylesheet">
     <title>
         Imersão Dev - Aula 05
@@ -8,17 +11,20 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="page-title">
-        Aluraflix
-        </h1>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
-        <p class="page-subtitle">
-        Qual seu filme favorito?
-        </p>
-        <div class="form-wrapper">
-        <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
-        <button type="submit" onclick="adicionarFilme()">Adicionar Filme</button>
+    <div class="centralizador">
+        <div class="container">
+            <h1 class="page-title">
+                Aluraflix
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+                class="page-logo" alt="">
+            <p class="page-subtitle">
+                Qual seu filme favorito?
+            </p>
+            <div class="form-wrapper">
+                <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+                <button type="submit" onclick="adicionarFilme()">Adicionar Filme</button>
+            </div>
         </div>
     </div>
     <div id="listaFilmes"></div>

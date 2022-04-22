@@ -11,5 +11,5 @@ let listaFilmes = ["https://br.web.img2.acsta.net/medias/nmedia/18/91/08/82/2012
 "https://m.media-amazon.com/images/I/71YuETqnQeL._AC_SY606_.jpg"]
 
 for (let index = 0; index < listaFilmes.length; index++) {
-    document.write('<img class="imagF" src=', listaFilmes[index], '>')
+    document.write('<img src=', listaFilmes[index], '>')
 }

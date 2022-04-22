@@ -1,4 +1,5 @@
-    body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+body {
     font-family: "Roboto Mono", monospace;
     min-height: 400px;
     background-image: url("https://cdn.pixabay.com/photo/2016/04/25/23/53/euro-1353420_960_720.jpg");
@@ -6,61 +7,69 @@
     background-size: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
-    }
+    background-size: cover;
+}
 
-    .container {
+.container {
+    background: #ffffff;
     text-align: center;
     padding: 20px;
-    height: 100vh;
+    justify-content: space-between;
+    display: block;
+    opacity: 1;
+    color: black;
+    margin: 70px;
+}
+
+.cabeca {
+    display: flex;
     justify-content: center;
-    }
+}
 
-    .page-title {
-    color: #000000;
+.caixaPrincipal {
+    background: #000000;
+    margin: 70px;
+    border-radius: 20px;
+    padding: 20px;
+    color: wheat;
+}
+
+.page-title {
     margin: 0 0 5px;
-    }
+}
 
-    .page-subtitle {
-    color: #000000;
+.page-subtitle {
     margin-top: 5px;
-    }
+}
 
-    .page-logo {
-    width: 200px;
-    }
+.page-logo {
+    width: 200px;  
+}
 
-    .alura-logo {
+.alura-logo {
     width: 40px;
     position: absolute;
     top: 10px;
     right: 10px;
-    }
+}
 
-    input {
+input {
     margin: 12px;
     padding: 6px;
     border-radius: 5px;
-    }
+}
 
-    label {
-    color: #000000;
-    }
-
-    button {
+button {
     margin-top: 12px;
     padding: 4px 8px;
     border-radius: 10px;
     background: #ffffff;
-    }
+}
 
-    h2 {
-    color: #000000;
+h2 {
     font-size: 30px;
-    }
+}
 
-    .taxa {
-        color: #000000;
-        font-size: 20px;
-    }
-
+.taxa {
+    font-size: 20px;
+}
